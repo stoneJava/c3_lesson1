@@ -22,7 +22,7 @@ int main() {
 //使用类和结构的对象作为参数，均是传值方式
 void swap(string s1,string s2){
     string tmp = s1;s1=s2,s2=tmp;
-    cout<<"交换后：str1："<<s1<<",str2："<<s2<<endl;
+    cout<<"交换后1：str1："<<s1<<",str2："<<s2<<endl;
 }
 
 
